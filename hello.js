@@ -1,7 +1,9 @@
 'use strict';
 
 function hello(){
-  return 'Hello World';
+	console.log('invoked');
+	return 'Hello World';
+
 }
 
 module.exports = hello;
